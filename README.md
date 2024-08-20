@@ -17,3 +17,9 @@ tar -xvf node-v20.16.0-linux-x64.tar.xz
 source enable_environments.sh
 ```
 
+- Install npm packages
+
+```
+npm install
+```
+
