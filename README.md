@@ -7,8 +7,7 @@
 - Download `node.js` and modify `enable_environments.sh`
 
 ```bash
-wget https://nodejs.org/dist/v20.16.0/node-v20.16.0-linux-x64.tar.xz
-tar -xvf node-v20.16.0-linux-x64.tar.xz
+download_nodejs.sh
 ```
 
 - Source `node.js` environments
