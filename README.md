@@ -4,7 +4,7 @@
 
 # Installation
 
-- Download `node.js` and modify `enable_environments.sh`
+- Download `node.js` using `download_nodejs.sh`
 
 ```bash
 download_nodejs.sh
