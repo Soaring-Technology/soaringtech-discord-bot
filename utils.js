@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-async function DiscordRequest(method, endpoint, options) {
+async function DiscordRequest(endpoint, options) {
   const url = `https://discord.com/api/v10/${endpoint}`;
 
   if (options.body) {
