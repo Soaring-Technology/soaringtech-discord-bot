@@ -24,6 +24,13 @@ async function DiscordRequest(endpoint, options) {
   return res;
 }
 
+
+async function InstallGlobalCommands(appId, commands) {
+
+}
+
+
 export {
   DiscordReqeust,
+  InstallGlobalCommands,
 };
