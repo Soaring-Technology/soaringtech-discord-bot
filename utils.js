@@ -26,7 +26,13 @@ async function DiscordRequest(endpoint, options) {
 
 
 async function InstallGlobalCommands(appId, commands) {
-
+  const endpoint = `applications/${appId}/commands`;
+  
+  try{
+    await DiscordRequest(endpoint, {method: 'PUT', body: commands});
+  } catch (err) {
+    throw new Error(error);
+  }
 }
 
 
