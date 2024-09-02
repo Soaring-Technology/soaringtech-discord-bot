@@ -26,3 +26,4 @@ npm install
 
 - [Integration types](https://discord.com/developers/docs/resources/application#application-object-application-integration-types)
 - [Context types](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-structure)
+- [Endpoints](https://discord.com/developers/docs/interactions/application-commands#bulk-overwrite-global-application-commands)
