@@ -1,5 +1,8 @@
 import 'dotenv/config';
 import express from 'express';
+import {
+  ALL_COMMANDS,
+} from './commands.js';
 
 const app = express();
 const port = process.env.EXPRESS_APP_PORT || 3000;
